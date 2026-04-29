@@ -1,4 +1,4 @@
-# 🧠 Social Media Stress Detection (NLP)
+# 🧠 Detector de Estrés (NLP)
 
 Este proyecto implementa un modelo de **Inteligencia Artificial** basado en Procesamiento de Lenguaje Natural (NLP) capaz de clasificar textos de redes sociales para detectar niveles de estrés. 
 
@@ -11,7 +11,7 @@ Desarrollado como proyecto para la **Diplomatura en Programación de IA (IFES)**
 ### 🇦🇷 Español
 * **Objetivo:** Identificar indicadores de estrés en mensajes relacionados con salud mental extraídos de Reddit.
 * **Modelo:** Clasificador probabilístico **Bernoulli Naive Bayes**.
-* **Procesamiento de Datos:** * Traducción automatizada (Inglés -> Español) mediante `deep-translator` con ejecución en paralelo (`ThreadPoolExecutor`).
+* **Procesamiento de Datos:** Traducción automatizada (Inglés -> Español) mediante `deep-translator` con ejecución en paralelo (`ThreadPoolExecutor`).
     * Limpieza de texto profunda usando **Regex** (eliminación de URLs, puntuación y números).
     * Normalización y eliminación de *stopwords* con la librería **NLTK**.
 * **Resultados:** El modelo permite predecir la presencia de estrés en frases nuevas ingresadas por el usuario con un alto grado de coherencia.
@@ -30,7 +30,7 @@ Desarrollado como proyecto para la **Diplomatura en Programación de IA (IFES)**
 
 ## 🛠️ Tecnologías / Tech Stack
 * **Lenguaje:** ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-* **Librerías principales:** * `Pandas` & `Numpy` (Manipulación de datos)
+* **Librerías principales:** `Pandas` & `Numpy` (Manipulación de datos)
     * `Scikit-learn` (Machine Learning & Vectorización)
     * `NLTK` (Procesamiento de lenguaje)
     * `Matplotlib` & `WordCloud` (Visualización de datos)
